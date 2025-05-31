@@ -1,0 +1,28 @@
+:root{
+  --cor-primairia:#151718;
+  --cor-secundaria:#EF686B;
+  --cor-secundaria-transparente: #EF686B30;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+body{
+  background: linear-gradient(200deg, var(--cor-secundaria), var(--cor-primairia), var(--cor-primairia));
+  font-family: 'Rubik', sans-serif;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.apresentacao, .arvore{
+  width: 100%;
+  height: 50%;
+}

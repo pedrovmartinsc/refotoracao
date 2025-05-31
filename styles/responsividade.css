@@ -1,0 +1,15 @@
+@media (min-width: 320px) and (orientation: landscape) {
+    body{
+        display: flex;
+    }
+    .apresentacao, .arvore{
+        width: 50%;
+        height: 100%;
+    }
+    .apresentacao p{
+        font-size: .9rem;
+    }
+    .arvore ul .visibilidade{
+        display: block;
+    }
+}
