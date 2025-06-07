@@ -13,3 +13,317 @@
         display: block;
     }
 }
+
+@media (min-height: 320px), (min-width: 660px) and (orientation: portrait) {
+    .arvore{
+        justify-content: start;
+    }
+    .apresentacao div {
+    border: 1px;
+    width: 10rem;
+    height: 10rem;
+}
+
+.apresentacao h1{
+    font-family: 'Honk';
+    font-size: 1.6rem;
+}
+.apresentacao p{
+    font-size: 0.5rem;
+}
+.arvore .botao{
+    width: 19rem;
+    height: 5rem;
+    font-size: 3rem;
+}
+.arvore ul li{
+    width: 4rem;
+    height: 4rem;
+}
+
+}
+@media (min-width: 320px), (min-height: 660px) and (orientation: landscape) {
+    .arvore{
+        justify-content: center;
+    }
+    .apresentacao div {
+    border: 1px;
+    width: 12rem;
+    height: 12rem;
+}
+
+.apresentacao h1{
+    font-family: 'Honk';
+    font-size: 1.85rem;
+}
+.apresentacao p{
+    font-size: 1.1rem;
+}
+.arvore .botao{
+    width: 19rem;
+    height: 5rem;
+    font-size: 3rem;
+}
+.arvore ul li{
+    width: 4rem;
+    height: 4rem;
+}
+
+}
+@media (min-width: 340px) and (orientation: portrait) {
+    .arvore{
+        justify-content: start;
+    }
+    .apresentacao div {
+    border: 1px;
+    width: 12rem;
+    height: 12rem;
+}
+
+.apresentacao h1{
+    font-family: 'Honk';
+    font-size: 2.1rem;
+}
+.apresentacao p{
+    font-size: 1.15rem;
+}
+.arvore .botao{
+    width: 19rem;
+    height: 5rem;
+    font-size: 3.2rem;
+}
+.arvore ul li{
+    width: 4rem;
+    height: 4rem;
+}
+
+}
+@media (min-width: 1000px) and (orientation: landscape) {
+    .arvore{
+        justify-content: center;
+    }
+    
+    .apresentacao div {
+    border: 1px;
+    width: 12rem;
+    height: 12rem;
+}
+.apresentacao h1{
+    font-family: 'Honk';
+    font-size: 2.2rem;
+}
+.apresentacao p{
+    font-size: 1.2rem;
+}
+.arvore .botao{
+    width: 19rem;
+    height: 4.7rem;
+    font-size: 3rem;
+}
+.arvore ul li{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+}
+@media (min-width: 708px) and (orientation: portrait) {
+    .arvore{
+        justify-content: center;
+    }
+    .apresentacao div {
+    border: 1px;
+    width: 20rem;
+    height: 20rem;
+}
+.apresentacao h1{
+    font-family: 'Honk';
+    font-size: 3.75rem;
+}
+.apresentacao p{
+    font-size: 2.1rem;
+}
+.arvore .botao{
+    width: 29rem;
+    height: 7rem;
+    font-size: 4.4rem;
+}
+.arvore ul li{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+.arvore{
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+}
+    .arvore ul .visibilidade{
+        display: block;
+    }
+}
+
+@media (min-height: 708px)and (orientation: landscape) {
+    .arvore{
+        justify-content: center;
+    }
+    .apresentacao div {
+    border: 1px;
+    width: 20rem;
+    height: 20rem;
+}
+.apresentacao h1{
+    font-family: 'Honk';
+    font-size: 3.5rem;
+}
+.apresentacao p{
+    font-size: 2.1rem;
+}
+.arvore .botao{
+    width: 29rem;
+    height: 7rem;
+    font-size: 4.4rem;
+}
+.arvore ul li{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+.arvore{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0rem;
+}
+}
+@media (min-height: 760px) and (orientation: landscape) {
+    .arvore{
+        justify-content: center;
+    }
+    .apresentacao div {
+    border: 1px;
+    width: 20rem;
+    height: 20rem;
+}
+.apresentacao h1{
+    font-family: 'Honk';
+    font-size: 3.3rem;
+}
+.apresentacao p{
+    font-size: 1.5rem;
+}
+.arvore .botao{
+    width: 29rem;
+    height: 7rem;
+    font-size: 4.4rem;
+}
+.arvore ul li{
+    width: 6.5rem;
+    height: 6.5rem;
+}
+.arvore{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0rem;
+}
+}
+@media (min-height: 578px) and (orientation: landscape) {
+    .arvore{
+        justify-content: center;
+    }
+    .apresentacao div {
+    border: 1px;
+    width: 14rem;
+    height: 14rem;
+}
+.apresentacao h1{
+    font-family: 'Honk';
+    font-size: 2.5rem;
+}
+.apresentacao p{
+    font-size: 1.5rem;
+}
+.arvore .botao{
+    width: 25rem;
+    height: 6rem;
+    font-size: 4rem;
+            transition: transform 0.3s ease;
+
+}
+.arvore .botao:hover{
+    transform: scale(1.05)
+}
+.arvore ul li{
+    width: 5rem;
+    height: 5rem;
+}
+.arvore{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0rem;
+}
+.arvore ul li a:hover{
+    transform: scale(1.15);
+}
+
+}
+@media (min-height: 678px) and (orientation: landscape) {
+    .arvore{
+        justify-content: center;
+    }
+    .apresentacao div {
+    border: 1px;
+    width: 18rem;
+    height: 18rem;
+}
+.apresentacao h1{
+    font-family: 'Honk';
+    font-size: 3.1rem;
+}
+.apresentacao p{
+    font-size: 1.7rem;
+}
+.arvore .botao{
+    width: 29rem;
+    height: 7rem;
+    font-size: 4.6rem;
+    transition: transform 0.3s ease;
+}
+.arvore ul li{
+    width: 6rem;
+    height: 6rem;
+
+
+}
+.arvore .botao:hover{
+    transform: scale(1.05)
+}
+.arvore{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0rem;
+}
+.arvore ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s ease
+
+}
+.arvore ul li a:hover{
+    transform: scale(1.15);
+}
+}
+
+
